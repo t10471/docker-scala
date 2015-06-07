@@ -4,8 +4,8 @@ FROM t10471/java7:latest
 MAINTAINER t10471 <t104711202@gmail.com>
 
 
-ENV SCALA_TARBALL http://www.scala-lang.org/files/archive/scala-2.11.2.deb
-ENV SBT_TARBALL   http://dl.bintray.com/sbt/debian/sbt-0.13.5.deb
+ENV SCALA_TARBALL http://www.scala-lang.org/files/archive/scala-2.11.6.deb
+ENV SBT_TARBALL   http://dl.bintray.com/sbt/debian/sbt-0.13.8.deb
 
 
 # install from Typesafe repo (contains old versions but they have all dependencies we need later on)
